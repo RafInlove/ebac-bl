@@ -1,0 +1,138 @@
+.hero {
+  text-align: center;
+  color: #fff;
+  background: url("../party.e18ed5ab.jpg") center / cover no-repeat;
+  padding: 60px 0;
+}
+
+.hero__logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.hero__text {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.hero .infos-bar {
+  color: #fff;
+  background-color: #00000080;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.hero .infos-bar__infos {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.hero .infos-bar__infos__item {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.hero .infos-bar__infos__item b {
+  font-weight: bold;
+  display: block;
+}
+
+.infos-bar {
+  background-color: #00000080;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+}
+
+.infos-bar__infos {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.infos-bar__infos__item {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.infos-bar__infos__item b {
+  font-weight: bold;
+  display: block;
+}
+
+.button--primary {
+  color: #fff;
+  background-color: #ff4081;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.button--primary:hover {
+  background-color: #e6005c;
+}
+
+.event {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.event__details {
+  margin-bottom: 20px;
+}
+
+.event__details__title {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.event__details__description {
+  color: #555;
+  font-size: 18px;
+}
+
+.event__img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+  color: #9b4abd;
+  text-shadow: 1px 1px #000;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (width <= 640px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (width <= 1024px) {
+  .container {
+    max-width: 90%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
