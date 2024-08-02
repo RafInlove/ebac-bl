@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{function e(){let e=document.getElementById("countdown"),t=new Date("2024-08-26T00:00:00")-new Date;if(t<=0){e.textContent="A festa já começou!";return}let n=Math.floor(t/864e5),o=Math.floor(t%864e5/36e5),a=Math.floor(t%36e5/6e4),d=Math.floor(t%6e4/1e3);e.textContent=`A minha festa de anivers\xe1rio come\xe7a em ${n}d ${o}h ${a}m ${d}s`}e(),setInterval(e,1e3)});
+//# sourceMappingURL=index.e85f079e.js.map
